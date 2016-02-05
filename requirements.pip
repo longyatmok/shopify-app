@@ -1,0 +1,9 @@
+# Django framework
+django
+
+# Database
+mysql-python
+
+# Shopify
+ShopifyAPI
+django-shopify-auth
