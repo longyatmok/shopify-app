@@ -135,7 +135,7 @@ LOGOUT_URL = '/logout/'
 SHOPIFY_APP_NAME = 'Altitude API Testing'
 SHOPIFY_APP_API_KEY = 'bdef07b029db934bfb4ed6415b0d7e78'
 SHOPIFY_APP_API_SECRET = '72121bdbf7d2f1fc8703dbbdb4a601ff'
-SHOPIFY_APP_API_SCOPE = ['read_products', 'read_orders']
+SHOPIFY_APP_API_SCOPE = ['read_products', 'read_orders', 'read_customers']
 SHOPIFY_APP_IS_EMBEDDED = True
 SHOPIFY_APP_DEV_MODE = False
 
