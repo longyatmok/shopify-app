@@ -20,7 +20,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'wm2z^trl$n$2rw&q$f4&*yk+tn9sniyuxn#u@+o%0n)mq^=qs)'
+# Modify this!
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -132,9 +133,9 @@ LOGIN_URL = '/login/'
 LOGOUT_URL = '/logout/'
 
 # Configure Shopify Application settings
-SHOPIFY_APP_NAME = 'Altitude API Testing'
-SHOPIFY_APP_API_KEY = 'bdef07b029db934bfb4ed6415b0d7e78'
-SHOPIFY_APP_API_SECRET = '72121bdbf7d2f1fc8703dbbdb4a601ff'
+SHOPIFY_APP_NAME = 'API Testing'
+SHOPIFY_APP_API_KEY = '' # ur own api key
+SHOPIFY_APP_API_SECRET = '' # ur own api secret
 SHOPIFY_APP_API_SCOPE = ['read_products', 'read_orders', 'read_customers']
 SHOPIFY_APP_IS_EMBEDDED = True
 SHOPIFY_APP_DEV_MODE = False
